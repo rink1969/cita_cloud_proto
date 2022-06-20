@@ -25,7 +25,7 @@ message NetworkStatusResponse {
 message NetworkMsg {
     string module = 1;
     string type = 2;
-    uint64 origin = 3;
+    string domain = 3;
     bytes msg = 4;
 }
 
