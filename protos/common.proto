@@ -81,7 +81,7 @@ message ConsensusConfigurationResponse {
 
 message NodeNetInfo {
     string multi_address = 1;
-    uint64 origin = 2;
+    string domain = 2;
 }
 
 message TotalNodeNetInfo {
