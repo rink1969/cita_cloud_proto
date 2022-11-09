@@ -13,7 +13,6 @@
 // limitations under the License.
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("cargo:rerun-if-changed=protos");
     tonic_build::configure()
         .build_client(true)
         .build_server(true)
